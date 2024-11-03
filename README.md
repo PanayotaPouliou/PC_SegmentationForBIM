@@ -16,6 +16,8 @@ For the training a learning rate schedule that decays the initial learning rate 
 
 # **Validation**
 
+![LOSS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/loss_accuracy.png)
+
 
 
 Besides the visual inspection of the models performanse,, we also calculated the mIoU for each label.
