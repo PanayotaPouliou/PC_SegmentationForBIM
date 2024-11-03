@@ -19,9 +19,12 @@ For the training a learning rate schedule that decays the initial learning rate 
 ![LOSS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/loss_accuracy.png)
 
 
-Besides the visual inspection of the models performanse,, we also calculated the mIoU for each label.
+## Visual inspection of the models performanse
 
 ![INSPECTION](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/Visual_inspection.png)
+
+### Visualization with the missclassified points within a sample point cloud
+
 ![MISSCLASS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/missclassified_points.png)
 
 
