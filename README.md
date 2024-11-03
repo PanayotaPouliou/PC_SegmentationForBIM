@@ -24,6 +24,9 @@ Besides the visual inspection of the models performanse,, we also calculated the
 ![INSPECTION](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/Visual_inspection.png)
 ![MISSCLASS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/missclassified_points.png)
 
+
+# **mIoU**
+
 The calculated mean Intersection over Union (mIoU) of approximately 0.802 indicates that our point cloud segmentation model performs well overall, effectively capturing the spatial characteristics of the different classes in the dataset. This score suggests that the model achieves a good balance between precision and recall across various classes.
 
 However, examining the IoU scores per class reveals some important insights.
@@ -31,5 +34,8 @@ However, examining the IoU scores per class reveals some important insights.
 The first class (rood) demonstrates an IoU of approximately 0.804, reflecting a strong performance in segmenting this class and suggesting that the model effectively identifies and delineates its boundaries. The second class (wall), with an IoU of around 0.880, is the best-performing class, indicating that the model excels in recognizing and segmenting this particular category, potentially due to clearer features or more substantial training data associated with it.
 
 In contrast, the third class (floor) scores an IoU of about 0.720, which, while still reasonable, suggests some challenges in accurately predicting this class. This lower score could indicate that the model struggles with the variability of the fourth class or that it may require more targeted training data or further tuning to improve its segmentation accuracy. Overall, while the model shows promising results, the variation in IoU scores highlights areas for potential improvement, especially for the fourth class and the need to ensure all classes are represented in both training and evaluation datasets.
+
+![miou](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/mIoU_per_class.png)
+
 
 
