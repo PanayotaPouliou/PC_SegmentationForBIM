@@ -19,8 +19,10 @@ For the training a learning rate schedule that decays the initial learning rate 
 ![LOSS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/loss_accuracy.png)
 
 
-
 Besides the visual inspection of the models performanse,, we also calculated the mIoU for each label.
+
+![INSPECTION](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/Visual_inspection.png)
+![MISSCLASS](https://github.com/PanayotaPouliou/PC_SegmentationForBIM/blob/main/plots/missclassified_points.png)
 
 The calculated mean Intersection over Union (mIoU) of approximately 0.802 indicates that our point cloud segmentation model performs well overall, effectively capturing the spatial characteristics of the different classes in the dataset. This score suggests that the model achieves a good balance between precision and recall across various classes.
 
