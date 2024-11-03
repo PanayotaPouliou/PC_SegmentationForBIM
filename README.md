@@ -14,8 +14,9 @@ Mendeley Data
 # **Training**
 For the training a learning rate schedule that decays the initial learning rate by half every 20 epochs was used. In this example, we use 60 epochs.
 
+# **Validation**
 
-#**Validation**
+
 
 Besides the visual inspection of the models performanse,, we also calculated the mIoU for each label.
 
