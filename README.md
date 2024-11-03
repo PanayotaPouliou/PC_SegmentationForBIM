@@ -2,7 +2,7 @@
 This repository provides a comprehensive pipeline for segmenting 3D point cloud data of buildings to identify key architectural elements: walls, roofs, and floors. Utilizing deep learning, this model allows for accurate segmentation, making it easier to analyze and understand building structures from point cloud data.
 
 # **Dataset**
-The model was trained using the "Annotated point clouds of buildings: a segmented dataset of single-family houses" dataset, which can be accesed here: [Dataset]([10.17632/3thtp7mc6z.2](https://data.mendeley.com/datasets/3thtp7mc6z/2)). The dataset contains 2.904 geometries of single-family houses in the form of annotated Point Clouds, and was developed in order to train 3D Generative Adversarial Networks with architecturally relevant data. More specificaly the geometries are segmented within 3 classes: wall, roof, floor. The points of the point clouds are saved in .pts files while their labels are saved in .seg files.
+The model was trained using the "Annotated point clouds of buildings: a segmented dataset of single-family houses" dataset, which can be accesed here: [Dataset](https://data.mendeley.com/datasets/3thtp7mc6z/2). The dataset contains 2.904 geometries of single-family houses in the form of annotated Point Clouds, and was developed in order to train 3D Generative Adversarial Networks with architecturally relevant data. More specificaly the geometries are segmented within 3 classes: wall, roof, floor. The points of the point clouds are saved in .pts files while their labels are saved in .seg files.
 
 DOI: 10.17632/3thtp7mc6z.2
 URL ID: [https://data.mendeley.com/datasets/3thtp7mc6z](https://data.mendeley.com/datasets/3thtp7mc6z)
@@ -13,6 +13,7 @@ Mendeley Data
 
 # **Training**
 For the training a learning rate schedule that decays the initial learning rate by half every 20 epochs was used. In this example, we use 60 epochs.
+You can download the pre-trainde model [here](https://drive.google.com/drive/folders/1mDqX4-oOtAMqLNulawHCt-rX47Rv-ARq?usp=sharing] 
 
 # **Validation**
 
