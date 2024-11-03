@@ -13,7 +13,7 @@ Mendeley Data
 
 # **Training**
 For the training a learning rate schedule that decays the initial learning rate by half every 20 epochs was used. In this example, we use 60 epochs.
-You can download the pre-trainde model [here](https://drive.google.com/drive/folders/1mDqX4-oOtAMqLNulawHCt-rX47Rv-ARq?usp=sharing] 
+You can download the pre-trainde model [here](https://drive.google.com/drive/folders/1mDqX4-oOtAMqLNulawHCt-rX47Rv-ARq?usp=sharing) .
 
 # **Validation**
 
