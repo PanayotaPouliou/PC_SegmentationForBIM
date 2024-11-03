@@ -5,7 +5,9 @@ This repository provides a comprehensive pipeline for segmenting 3D point cloud 
 The model was trained using the "Annotated point clouds of buildings: a segmented dataset of single-family houses" dataset, which can be accesed here: [Dataset]([10.17632/3thtp7mc6z.2](https://data.mendeley.com/datasets/3thtp7mc6z/2)). The dataset contains 2.904 geometries of single-family houses in the form of annotated Point Clouds, and was developed in order to train 3D Generative Adversarial Networks with architecturally relevant data. More specificaly the geometries are segmented within 3 classes: wall, roof, floor. The points of the point clouds are saved in .pts files while their labels are saved in .seg files.
 
 DOI: 10.17632/3thtp7mc6z.2
-URL ID: [https://data.mendeley.com/datasets/3thtp7mc6z](https://data.mendeley.com/datasets/3thtp7mc6z); [http://dx.doi.org/10.17632/3thtp7mc6z.2](http://dx.doi.org/10.17632/3thtp7mc6z.2); https://dx.doi.org/10.17632/3thtp7mc6z.2; https://data.mendeley.com/datasets/3thtp7mc6z/2
+
+URL ID: [https://data.mendeley.com/datasets/3thtp7mc6z](https://data.mendeley.com/datasets/3thtp7mc6z)
+
 AUTHOR(S): Pouliou, Panayota; Horvath, Anca-Simona; Palamas, George
 
 PUBLISHER(S)
